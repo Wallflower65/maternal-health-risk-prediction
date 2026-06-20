@@ -53,6 +53,3 @@ plt.close()
 print()
 print("Feature importances (highest to lowest):")
 print(importances.sort_values(ascending=False))
-
-# blood sugar and systolic BP coming out on top makes sense clinically -
-# matches what we learned about gestational diabetes / preeclampsia risk factors
